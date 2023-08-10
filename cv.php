@@ -126,11 +126,11 @@ $works = [
 <?=$works[$i][`dataStart`];?> - 
 <?php if ($i==0):?>
  <span class="w3-tag w3-teal w3-round">
-     <?=$works[$i][`dataEnd`];?></span>
-     <?php else:?>
-     <?=$works[$i][`dataEnd`];?>
-     <?php endeif; ?>
-     </h6>
+<?=$works[$i][`dataEnd`];?></span>
+<?php else:?>
+<?=$works[$i][`dataEnd`];?>
+<?php endeif; ?>
+</h6>
 <p> <?=$works[$i][`description`];?></p>
 <hr>
 </div>
